@@ -1,0 +1,9 @@
+[project]
+name = "nexus"
+version = "0.1.0a0"
+description = "backend-first enterprise asset management platform"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "fastapi==0.141.1",
+    "uvicorn[standard]==0.52.1",
+]
